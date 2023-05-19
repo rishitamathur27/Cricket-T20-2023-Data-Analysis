@@ -4,4 +4,4 @@ In this project, I'll cover web scraping (ESPN Cricinfo website), using python a
 
 Following parameters help assess the performance of both batters and bowlers in cricket matches. By considering these criteria, we can gain insights into the consistency, efficiency, and involvement of players in the game.
 
-![image](https://github.com/rishitamathur27/Cricket-T20-2023-Data-Analysis/assets/38039850/33cbc0ad-435d-44a1-9d6d-32898f1d224a)
+![image](https://github.com/rishitamathur27/Cricket-T20-2023-Data-Analysis/assets/38039850/cb2eaf6c-7072-4acd-9baf-ab204de35a4c)
