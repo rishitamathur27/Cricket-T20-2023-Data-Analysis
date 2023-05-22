@@ -12,3 +12,6 @@ Performed the below steps in this project:
 1. Data collection from the cricket data website.
 2. Data preparation using pandas.
 3. Built visuals in dashboard using Power BI.
+
+
+Using the 'BrightData' to collect the data from the urls inspite of writing the scraping code. As, it uses proxy n/w for building web scrapers.
