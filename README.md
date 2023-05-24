@@ -15,3 +15,19 @@ Performed the below steps in this project:
 
 
 Using the 'BrightData' to collect the data from the urls inspite of writing the scraping code. As, it uses proxy n/w for building web scrapers.
+
+
+After importing the csv files to Power BI, we'll first need to transform the data. 
+
+1. In file ("dim_match_summary"):
+  * Remove redundant characters, duplicates from the table.
+  * Create a conditional column "Stage", if date< 22 Oct 2022 "Qualifier" otherwise "Super 12" (here we can see Scotland v/s Zimbabwe       was the last qualifier match). Also, change this column to "text".
+
+2. In file ("fact_bowling_summary"):
+  * Rename some of the columns.
+  * Create "balls" column using "overs" (overs1*6 + overs2) column using "Custom column" by first splitting this column into 2 and replace "null values" with 0.
+  
+3. In file ("fact_batting_summary"):
+  * Rename some of the columns.
+  * Change "out/not out" column to "out" and changes values into boolean ones.
+  * Remove useless character in the column "batsmanName"
