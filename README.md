@@ -31,3 +31,12 @@ After importing the csv files to Power BI, we'll first need to transform the dat
   * Rename some of the columns.
   * Change "out/not out" column to "out" and changes values into boolean ones.
   * Remove useless character in the column "batsmanName"
+
+
+
+After this, link the tables (basically do data modelling) and then build DAX measures which would be useful to build actual visuals. For this, create a category/folder by clicking on "Enter Data" where we can keep all DAX measures. Further, right click on it and click on "New measure".
+
+We'll need to create the following DAX measures:
+
+
+
