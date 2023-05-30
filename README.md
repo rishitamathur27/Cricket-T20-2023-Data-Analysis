@@ -41,4 +41,4 @@ We'll need to create the some DAX measures based on the requirement.
 Drag and drop the required columns to the dashboard and filter the valued based on the parameters mentioned in the starting.
 
 
-
+Design the dashboard for the cleared and detail understanding of the data :)
